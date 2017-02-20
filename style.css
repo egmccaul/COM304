@@ -1,0 +1,242 @@
+/*Setting Body heignt*/
+
+body, html {
+   height:100%;
+}
+
+body {
+    color: #fff;
+    background-color: #444;
+}
+
+/* Creates formatting for the general header,
+which is used by every page*/
+
+    /* Creates some whitespace around the drop-down login form fields, which is
+    contained in the navigation bar at the top.*/
+    #login{
+        padding: 10px 15px 0px 15px;
+    }
+
+    /* Makes the background of the dropdown login menu disappear. */
+    .dropdown-menu{
+        background-color:rgba(22,25,26, 0.4);
+    }
+
+    #foot{
+    position:fixed;
+        bottom:0px;
+        width:100%;
+        color: #eccf14;
+        background-color:rgba(22,25,26, 0.4);
+        font-family: Italiana;
+        font-size: 10px
+    }
+
+    /*makes nav bar turn to black when 2nd div is aligned*/
+    .navbar {
+       background-color: transparent;
+       background: transparent;
+       border-color: transparent;
+       font-family:Lucida Sans Unicode;
+       transition: background-color 1s;
+
+    }
+
+
+    /*ease transition sets slight animation on for sizing*/
+
+    div {
+      transition: all 2s ease; 
+    }
+
+    p {
+       transition: all 2s ease;
+    }
+
+    span{
+       transition: all 2s ease;
+    }
+
+
+/********************************************************
+
+WELCOME PAGE
+
+*********************************************************/
+
+
+
+/* Note: end of page wrapper is contained in the footer, right before the body end tag*/
+/*  .pagewrapper{}*/
+
+
+/* Change the button color to yellow */
+    .btn-trailmix {
+    background-color: #e1be24;
+    color: #fff;
+}
+
+    /* Adds formatting for the brand icon.*/
+    .navbar-brand img{
+        width:20px;
+        height:auto;
+    }
+
+    /* Change the color of the text for links in navbar. */
+    #myNavbar li a {
+        color: #fff;
+    }
+
+    .splash-screen {
+    color: black;
+    min-height: 100%;
+    width: 100%;
+    background-image: url('img/storeFront.png');
+    background-size: cover;
+    background-color: #222;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .splash-screen h2{
+    margin:400px 0 10px 0;
+    font-size:29px;
+  }
+  .splash-screen h1{
+    margin: 10px 0 50px 0;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-weight:300;
+    font-size:44px;
+  }
+
+  .splash-screen .cta{
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+  }
+
+  .splash-logo{
+    text-align: center;
+    max-width: 50%;
+  }
+    .splash-logo img {
+    height: 200px;
+    width:auto;
+  }
+
+/* Note: end of page wrapper is contained in the footer, right before the body end tag*/
+ 	.pagewrapper { 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/trailmixbackround.jpg);
+    background-size: cover;
+    background-color: #fff;
+	background-attachment: fixed;
+    /*had to make seperate id's for scroll not to height to touch index*/
+}
+
+
+	.main-logo img {
+        height: 200px;
+        width:auto;
+        margin-top: 300px;
+
+    }
+
+	.center{
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+	/* Adds formatting for the brand icon.*/
+	.navbar-brand img{
+        width:20px;
+        height:auto;
+    }
+
+/****************************************
+CONTENT SECTION for middle section
+*****************************************/
+
+.feature-section {
+  min-height:400px;
+  padding-top:100px;
+  padding-bottom:100px;
+
+}
+
+.feature-section p {
+  font-size:36px;
+  font-weight: 350;
+}
+
+.feature-text-left {
+  text-align: left;
+  padding:60px 125px 0 0;
+}
+
+.feature-text-right {
+  text-align: right;
+  padding:60px 0 0 125px;
+}
+
+.feature-img img {
+	vertical-align: middle;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #111;
+  width:100%;
+}
+
+
+/*going to make this picture stick*/
+  .photo-section {
+    margin:0;
+    height: 600px;
+    width: 100%;
+    z-index: 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0;
+    text-align: center;
+    display: block;
+  }
+
+  #feature1-photo{
+    background-image: url('img/deer2.jpg');
+  }
+
+  #feature2-photo{
+    background-image: url('img/truefox.jpg');
+  }
+
+  #feature3-photo{
+    background-image: url('img/dark.jpg');
+  }
+
+  #about-us {
+    margin: 10% auto;
+    /* height: 200px; */
+    color: #eee;
+    font-size: 22px;
+    font-weight: 200px;
+    text-align: center;
+ }
+
+ .p { 
+  text-align: center;
+}
+
+.last{
+  margin-bottom: 10px;
+}
+
+
+

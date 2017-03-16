@@ -1,7 +1,8 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        $(".splash-logo").css("opacity", 1 - $(window).scrollTop() / 250);
+        $("#splash-text").css("opacity", 1 - $(window).scrollTop() / 250);
       });
+    //makes splash logo fade as scroll goes down
 
     // Change navbar BG color on scroll to #learn-more
     var scroll_start = 0;
@@ -12,9 +13,9 @@ $(document).ready(function(){
         $(document).scroll(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
-                $("nav").css('background-color', '#222');
+				$('nav').css('background-color', 'rgba(22,25,26, 0.6)');    
             } else {
-                $('nav').css('background-color', 'transparent');
+                $("nav").css('background-color', '#222');
             }
         });
     }
@@ -53,10 +54,54 @@ $(document).ready(function(){
 							window.location.hash = idToLookAt;
 						});
 					}
+				
 				}
+			
 			});
+		
 		});
 	};
-	$('#GoToSplash, #GoToLearnMore, #GoToContact' ).scrollTo({ speed: 1400 });
+	
+	//goes to with speed
+	$('#GoToSplash,' + 
+		'#GoToLearnMore')
+		.scrollTo({ speed: 2500 });
 
+	// seperate scroll to 
+	// and with this we want to go 
+	// straight to the scource
+	// so the speed is 
+	// one millisecond
+	// straight to About US
+	$('#GoToAboutUs')
+	.scrollTo({ speed: 2500 });//changed speed to 2.5 sec..more pleaseing
+
+     /*end scroll to*/
+	/******************************
+	
+	new function
+	
+	*******************************/	
+
+    //function to hide the footer
+    //per student suggestion
+
+    //hide your div initially
+	$("footer").hide(); 
+	//set a variable to get the div you want to scroll past
+    var topOfOthDiv = $("#scrollDiv")
+    .offset().top;
+    //make a function to show the footer at some point
+    $(window).scroll(function() {
+    	//scrolled past the other div?
+        if($(window).scrollTop() > topOfOthDiv) { 
+        	//reached the desired point -- show div
+            $("footer").show(800); 
+        }
+        else{
+        	/*if anything else then hide*/
+        	$("footer").hide(500); 
+        	/*up and down sho and hide*/
+        }
+    });
 });

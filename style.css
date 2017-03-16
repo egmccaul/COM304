@@ -27,17 +27,18 @@ which is used by every page*/
     position:fixed;
         bottom:0px;
         width:100%;
-        color: #eccf14;
+        color: white;
         background-color:rgba(22,25,26, 0.4);
         font-family: Italiana;
-        font-size: 10px
+        font-size: 15px
     }
 
     /*makes nav bar turn to black when 2nd div is aligned*/
     .navbar {
        background-color: transparent;
        background: transparent;
-       border-color: transparent;
+       /*border-color: transparent;*/
+	   background-color:#222;
        font-family:Lucida Sans Unicode;
        transition: background-color 1s;
 
@@ -45,10 +46,6 @@ which is used by every page*/
 
 
     /*ease transition sets slight animation on for sizing*/
-
-    div {
-      transition: all 2s ease; 
-    }
 
     p {
        transition: all 2s ease;
@@ -81,6 +78,7 @@ WELCOME PAGE
     .navbar-brand img{
         width:20px;
         height:auto;
+		background-color:rgba(22,25,26, 0.4);
     }
 
     /* Change the color of the text for links in navbar. */
@@ -92,7 +90,7 @@ WELCOME PAGE
     color: black;
     min-height: 100%;
     width: 100%;
-    background-image: url('img/storeFront.png');
+    background-image: url('img/store_front.jpg');
     background-size: cover;
     background-color: #222;
     background-attachment: fixed;
@@ -101,10 +99,15 @@ WELCOME PAGE
     align-items: center;
     justify-content: center;
   }
-
+  .splash-screen .text-center{
+	  width:100%;
+	  background-color:rgba(22,25,26, 0.4);
+	  margin-top:25%;
+	  padding: 15px;
+  }
 
   .splash-screen h2{
-    margin:400px 0 10px 0;
+    margin:0 0 10px 0;
     font-size:29px;
   }
   .splash-screen h1{
@@ -198,12 +201,13 @@ CONTENT SECTION for middle section
 /*going to make this picture stick*/
   .photo-section {
     margin:0;
-    height: 600px;
+    height: 700px;
     width: 100%;
     z-index: 2;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
     padding: 0;
     text-align: center;
     display: block;
@@ -214,20 +218,26 @@ CONTENT SECTION for middle section
   }
 
   #feature2-photo{
-    background-image: url('img/truefox.jpg');
+    background-image: url('img/fall_road.jpg');
   }
 
   #feature3-photo{
-    background-image: url('img/dark.jpg');
+    background-image: url('img/granola_banner.jpg');
   }
 
   #about-us {
     margin: 10% auto;
     /* height: 200px; */
     color: #eee;
-    font-size: 22px;
-    font-weight: 200px;
+	/*color: black;*/
+    font-size: 25px;
+    font-weight: bold;
     text-align: center;
+	background-color:rgba(22,25,26, 0.4);
+ }
+ #about-us h2{
+	 font-size: 32px;
+	 background-color:rgba(22,25,26, 0.4);
  }
 
  .p { 

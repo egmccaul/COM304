@@ -6,28 +6,29 @@ include('header.php');
 <!-- Enter HTML here -->
 
 <div id="splash-screen" class="splash-screen">
-    <div class="col-md-12 text-center splash-logo">
+    <!--<div class="col-md-12 text-center splash-logo">-->
 
-      <div class="text-center">
+      <div id="splash-text" class="text-center">
           <h2>Getting Hungry?</h2>
           <h1>Eat some Granola at the Bar.</h1>
 
           <a id="GoToLearnMore" href="#learn-more" class="btn btn-trailmix cta">Learn More</a>
 
       </div>
-    </div>
+    <!--</div>-->
 </div>
 
 <div id="learn-more">
 	<div class="row">
 		<div class="container feature-section">
 			<div class="col-md-6 feature-text-left">
-				<p>Mount your Trailmix Motion Activated Camera to a tree along a path to watch it</p>
+				<p>We pride ourselves on providing our customers with a quality product while growing 
+				our brand with the same organic integrity that is found in our granola.</p>
 			</div> 
 			<!-- end of learn-more div class -->
 			<div class ="col-md-6 feature-img">
 				<img src="img/GranolaBase.jpg"
-				alt ="motion activated camera mounted to tree" />
+				alt ="Pile of Granola" />
 			</div>
 		</div>
 	</div>
@@ -67,7 +68,7 @@ include('header.php');
 				<p>View your map when you arrive to select the area of your trail that has the most activity</p>
 			</div> <!-- end of about class -->
 			
-			<div class="col-md-6 feature-img">
+			<div id="scrollDiv" class="col-md-6 feature-img">
 				<img src="img/beachFire.jpeg" alt="Heat map of deer activity" />
 			</div>
 		</div>

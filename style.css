@@ -70,7 +70,7 @@ WELCOME PAGE
 
 /* Change the button color to yellow */
     .btn-trailmix {
-    background-color: #e1be24;
+    background-color: rgba(219,114,10, 1.0);
     color: #fff;
 }
 
@@ -85,6 +85,11 @@ WELCOME PAGE
     #myNavbar li a {
         color: #fff;
     }
+	
+	#product_button{
+		margin:10px;
+		background-color: rgba(280, 160, 10, 1.0);
+	}
 
     .splash-screen {
     color: black;
@@ -162,6 +167,7 @@ WELCOME PAGE
 	.navbar-brand img{
         width:20px;
         height:auto;
+		background-color:white;
     }
 
 /****************************************
@@ -233,13 +239,13 @@ CONTENT SECTION for middle section
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-	background-color:rgba(22,25,26, 0.6);
+	background-color:rgba(22,25,26, 0.8);
 	width:75%;
 	border-radius: 20px;
  }
  #about-us h2{
 	 font-size: 32px;
-	 background-color:rgba(41,43,182, 0.6);
+	 background-color:rgba(219,114,10, 1.0);
 	 border-radius: 20px 20px 0px 0px;
 	 padding: 5px;
  }

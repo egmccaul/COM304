@@ -23,7 +23,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="index.php"><img src="img/trailmixacorn.png" alt="TrailMix" style="width:auto;height:20px;"></a>
+                <a class="navbar-brand" href="index.php"><img src="img/granola_bar_logo.png" alt="TrailMix" style="width:auto;height:20px;"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -32,7 +32,10 @@
                     <li><a id="GoToLearnMore" href="#learn-more">Learn More</a></li>
                     <li><a id="GoToAboutUs" href="#about-us">About Us</a></li>
                 </ul>
-				</div>	
+				<ul class="nav navbar-nav navbar-right">
+					<li><button class="btn btn-trailmix" id="product_button">Products <span class="glyphicon glyphicon-tags"></span></button></li>
+				</ul>
+				</div>
             </div>
         </div>
     </nav>

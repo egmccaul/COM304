@@ -233,11 +233,15 @@ CONTENT SECTION for middle section
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-	background-color:rgba(22,25,26, 0.4);
+	background-color:rgba(22,25,26, 0.6);
+	width:75%;
+	border-radius: 20px;
  }
  #about-us h2{
 	 font-size: 32px;
-	 background-color:rgba(22,25,26, 0.4);
+	 background-color:rgba(41,43,182, 0.6);
+	 border-radius: 20px 20px 0px 0px;
+	 padding: 5px;
  }
 
  .p { 

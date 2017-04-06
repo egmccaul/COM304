@@ -28,7 +28,8 @@ which is used by every page*/
         bottom:0px;
         width:100%;
         color: white;
-        background-color:rgba(22,25,26, 0.4);
+        background-color:rgba(22,25,26, 0.6);
+		padding-top:15px;
         font-family: Italiana;
         font-size: 15px
     }
@@ -87,7 +88,7 @@ WELCOME PAGE
     }
 	
 	#product_button{
-		margin:10px;
+		//margin:10px;
 		background-color: rgba(280, 160, 10, 1.0);
 	}
 

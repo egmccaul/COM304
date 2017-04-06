@@ -1,7 +1,7 @@
   
 
     <!-- Holds the footer/copyright information of the page. -->
-        <div id="foot" class="col-sm-12">
+        <div id="foot" class="col-sm-12 text-center">
             <footer>
                 <p>COM 304: Communication in Organizations. &copy; 2017</p>
 				<p>Emily McCauley, Josh Gillman, Morgan Smith, Emily Burnett,

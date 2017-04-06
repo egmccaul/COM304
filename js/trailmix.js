@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        $("#splash-text").css("opacity", 1 - $(window).scrollTop() / 250);
+        $(".splash-logo").css("opacity", 1 - $(window).scrollTop() / 250);
       });
     //makes splash logo fade as scroll goes down
 
@@ -13,9 +13,9 @@ $(document).ready(function(){
         $(document).scroll(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
-				$('nav').css('background-color', 'rgba(22,25,26, 0.6)');    
-            } else {
                 $("nav").css('background-color', '#222');
+            } else {
+                $('nav').css('background-color', 'transparent');
             }
         });
     }
@@ -87,7 +87,12 @@ $(document).ready(function(){
     //per student suggestion
 
     //hide your div initially
-	$("footer").hide(); 
+
+    /**********************************************
+    // changed code to involve only index footerID
+
+    ***********************************************/
+	$("#footindex").hide(); 
 	//set a variable to get the div you want to scroll past
     var topOfOthDiv = $("#scrollDiv")
     .offset().top;
@@ -96,11 +101,11 @@ $(document).ready(function(){
     	//scrolled past the other div?
         if($(window).scrollTop() > topOfOthDiv) { 
         	//reached the desired point -- show div
-            $("footer").show(800); 
+            $("#footindex").show(800); 
         }
         else{
         	/*if anything else then hide*/
-        	$("footer").hide(500); 
+        	$("#footindex").hide(500); 
         	/*up and down sho and hide*/
         }
     });

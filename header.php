@@ -33,7 +33,7 @@
                     <li><a id="GoToAboutUs" href="#about-us">About Us</a></li>
                 </ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><button class="btn btn-trailmix" id="product_button">Products <span class="glyphicon glyphicon-tags"></span></button></li>
+					<li><a href="product.php"><button class="btn btn-trailmix" id="product_button">Products <span class="glyphicon glyphicon-tags"></span></button></a></li>
 				</ul>
 				</div>
             </div>

@@ -2,7 +2,7 @@
 /* Adds in the navigation bar the top of the page.*/
 include('header.php');
 ?>
-
+<div class="pagewrapper">
 <!-- Enter HTML here -->
 
 <div id="splash-screen" class="splash-screen">

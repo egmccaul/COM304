@@ -63,6 +63,8 @@
 	#about-us{
 		margin-bottom: 225px;
 	}
+	#flavor{
+	color: lilac;}
 </style>
 
 <body id="general_page">
@@ -84,6 +86,8 @@
 				<ul class="nav navbar-nav">
                     <li><a id="GoToSplash" href="#splash-screen" onclick="hideContent('product_page'); showContent('home_page');">Home</a></li>
                     <li><a id="GoToLearnMore" href="#learn-more" onclick="hideContent('product_page'); showContent('home_page');">Learn More</a></li>
+					<li><a id="GoToMission" href="#mission" onclick="hideContent('product_page'); showContent('home_page');">Mission</a></li>
+					<li><a id="GoToVision" href="#vision" onclick="hideContent('product_page'); showContent('home_page');">Vision</a></li>
                     <li><a id="GoToAboutUs" href="#about-us" onclick="hideContent('product_page'); showContent('home_page');">About Us</a></li>
                 </ul>
 				<ul class="nav navbar-nav navbar-right">
@@ -113,9 +117,9 @@
 		<div class="row">
 			<div class="container feature-section">
 				<div class="col-md-5 feature-text-left">
-					<p>The Granola Bar is a build your own granola concept similar to self-serve 
-					ice creame and the cereal bar in New York.</p>
-					<p>You pick the flavor combinations, grains, supplement, and glue to hold it all together.</p>
+					<p>Are you sick of the same old plain granola? Why not craft a flavor specific to your tastes.</p>
+					<br>
+					<p>Well now you can!</p>
 				</div> 
 				<!-- end of learn-more div class -->
 				<div class ="col-md-5 feature-img">
@@ -132,20 +136,21 @@
 		</div>
 	</div>
 	<!-- end feature1-photo div -->
-
-    <div class="row">
-		<div class="container feature-section">
-      <div class="col-md-6 feature-img">
-				<img src="img/GranolaBase.jpg" alt ="Pile of Granola" />
-			</div>
-			<div class="col-md-6 feature-text-right">
-				<p>We pride ourselves on providing our customers with a quality product while growing 
-					our brand with the same organic integrity that is found in our granola.</p>
-				
-			</div> 
-		</div> <!-- end feature secion div -->
-	</div>
+	<div id="mission">
+		<div class="row">
+			<div class="container feature-section">
+		  <div class="col-md-6 feature-img">
+					<img src="img/GranolaBase.jpg" alt ="Pile of Granola" />
+				</div>
+				<div class="col-md-6 feature-text-right">
+					<p>We pride ourselves on providing our customers with a quality product while growing 
+						our brand with the same organic integrity that is found in our granola.</p>
+					
+				</div> 
+			</div> <!-- end feature secion div -->
+		</div>
 	<!-- end row div -->
+	</div>
 
 
   <div id="feature2-photo" class="row content-section photo-section">
@@ -154,32 +159,35 @@
 
 		</div>
 	</div>
-
-  <div class="row">
-        <div class="container feature-section">
-			<div class="col-md-6 feature-text-left">
-				<p>The Granola Bar’s vision is to promote a healthy lifestyle and to provide quick,
-				effective, and friendly service.</p>
-			</div> <!-- end of about class -->
-			
-			<div id="scrollDiv" class="col-md-6 feature-img">
-				<img src="img/beachFire.jpeg" alt="Night-time beach photo" />
+	
+	<div id="vision">
+	  <div class="row">
+			<div class="container feature-section">
+				<div class="col-md-6 feature-text-left">
+					<p>The Granola Bar’s vision is to promote a healthy lifestyle and to provide quick,
+					effective, and friendly service.</p>
+				</div> <!-- end of about class -->
+				
+				<div id="scrollDiv" class="col-md-6 feature-img">
+					<img src="img/beachFire.jpeg" alt="Night-time beach photo" />
+				</div>
 			</div>
-		</div>
-  </div>
+	  </div>
+	</div>
 
 	
 	<div id="feature3-photo" class="row content-section photo-section">
 		<div id="about-us">
 			<h2>About Us</h2>
-			<p class="p"> We at Inspired are a team of developers who love technology and are commited to providing our customers quality products.
-			</p>
-			<p class="p"> We are looking to innovate different aspects of technology and hopefully allow these innovations to benefit the people that use them.
-			</p>
-			<p class="p"> TrailMix is a little project we decided to create to help bring to light the hobby of hunting and wildlife capture.
-			</p>
-			<p class="p last"> With TrailMix hunters and wildlife enthusiassts can now remotely manage their trail cameras without tediously visiting them daily.
-			</p>
+			<p class="p"> We are The Granola Bar. We are an organization that strives to live by what we sell.</p>
+			<p class="p"> The Granola Bar is a place where a healthy lifestyle and food come together, and like any other 
+			organization or business we have many working parts. Some of these parts include our organizational 
+			concept, vision and mission, culture, and conflict management.</p>
+			<p class="p last"> We are a place that works to create an environment that employees and customers want to visit every day.</p>
+			<!--<p class="p"> We source organic ingredients, which will have the most benefits possible to help you thrive during your healthy lifestyle.
+			Paired with a relaxing atmosphere to allow you to melt away stress when time allows.</p>
+			<p class="p last"> You pick the flavor combinations, grains, supplement, and glue to hold it all together.
+			Find a combination that matches your personality.</p>-->
 		</div> <!-- end of about class -->
 		<!-- <div class="container">
 
@@ -213,6 +221,13 @@
 						<li>Nola</li>
 						<li>Lanola</li>
 						<li>Megnola</li>
+					</ul>
+					<h3>Flavor of the Month:</h3>
+					<h4 id="flavor">Orange you glad it's Spring!</h4>
+					<ul>
+						<li>Oranges</li>
+						<li>Almonds</li>
+						<li>Chocolate</li>
 					</ul>
 				</div>
 				<div class="col-sm-6 col-md-9">

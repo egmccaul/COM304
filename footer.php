@@ -24,8 +24,10 @@
 					<div class="col-sm-6 col-md-9" style="text-align:left;">
 						<ul id="playlist">
 							<li class="active horizontal"><a href="music/syd_matters_obstacles.mp3">Syd Matters - Obstacles</a></li>
-							<li class="horizontal"><a href="music/message_to_bears_mountains.mp3">Message to Bears - Mountains</a></li>
+							<li class="horizontal"><a href="music/ed_sheeran_tenerife_sea.mp3">Ed Sheeran - Tenerife Sea</a></li>
+							<li class="horizontal"><a href="music/milk_carton_kids_michigan.mp3">The Milk Carton Kids - Michigan</a></li>
 							<li class="horizontal"><a href="music/syd_matters_to_all_of_you.mp3">Syd Matters - To All of You</a></li>
+							<li class="horizontal"><a href="music/elliot_moss_slip.mp3">Elliot Moss - Slip</a></li>
 							<!--<li><a href="http://www.archive.org/download/PatrikbkarlChamberSymph/PatrikbkarlChamberSymph_vbr_mp3.zip">patrikbkarl chamber symph</a></li>-->
 
 						</ul>
@@ -66,11 +68,12 @@
 		});
 		audio[0].addEventListener('ended',function(e){
 			current++;
-			if(current == len){
+			if(current > len){
 				current = 0;
 				link = playlist.find('a')[0];
 			}else{
-				link = playlist.find('a')[current];    
+				link = playlist.find('a')[current]; 
+				/*current++;// moved down due to stackoverflow example*/
 			}
 			run($(link),audio[0]);
 		});

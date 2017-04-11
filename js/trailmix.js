@@ -75,6 +75,11 @@ $(document).ready(function(){
 	// straight to About US
 	$('#GoToAboutUs')
 	.scrollTo({ speed: 2500 });//changed speed to 2.5 sec..more pleaseing
+	
+	$('#GoToMission')
+	.scrollTo({ speed: 2500 });
+	$('#GoToVision')
+	.scrollTo({ speed: 2500 });
 
      /*end scroll to*/
 	/******************************

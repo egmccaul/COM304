@@ -31,8 +31,10 @@ include('header.php');
 		height: auto;
 		background-size: cover;
 		//background-color: #fff;
+		background-image: url(img/cube_background.jpg);
 		background-attachment: fixed;
 		padding-bottom: 50px;
+		height:150%;
 	}
 	.blank{
 		height: 20px;
@@ -41,12 +43,12 @@ include('header.php');
 		margin-bottom:100px;
 		position:relative;
 	}
-	body{
+	/*body{
 	
 		background-image: url(img/cube_background.jpg);
-	}
+	}*/
 </style>
-<div class="product_page">
+<div class="product_page pagewrapper">
 	<div class="col-lg-8 col-md-10 col-md-push-1 col-lg-push-2">
 		<div class="products">
 			<div class="col-md-12 content">

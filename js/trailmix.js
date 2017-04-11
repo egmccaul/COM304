@@ -5,7 +5,7 @@ $(document).ready(function(){
     //makes splash logo fade as scroll goes down
 
     // Change navbar BG color on scroll to #learn-more
-    var scroll_start = 0;
+    /*var scroll_start = 0;
     var startchange = $("#learn-more");
     var offset = startchange.offset();
 
@@ -18,7 +18,7 @@ $(document).ready(function(){
                 $('nav').css('background-color', 'transparent');
             }
         });
-    }
+    }*/
 
 	"use strict";
 	$.fn.scrollTo = function( options ) {

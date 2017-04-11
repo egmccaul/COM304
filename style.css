@@ -191,12 +191,12 @@ CONTENT SECTION for middle section
 
 .feature-text-left {
   text-align: left;
-  padding:60px 125px 0 0;
+  //padding:60px 125px 0 0;
 }
 
 .feature-text-right {
   text-align: right;
-  padding:60px 0 0 125px;
+  //padding:60px 0 0 125px;
 }
 
 .feature-img img {

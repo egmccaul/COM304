@@ -12,7 +12,7 @@
 
 <style>
 	.content{
-		margin-top:75px;
+		//margin-top:75px;
 		background-color:rgba(22,25,26, 0.8);
 		padding:20px;
 	}
@@ -43,6 +43,7 @@
 		background-attachment: fixed;
 		padding-bottom: 50px;
 		height:150%;
+		padding-top:75px;
 	}
 	.blank{
 		height: 20px;
@@ -59,6 +60,9 @@
 		margin-top:10px;
 		margin-right:10px;
 	}
+	#about-us{
+		margin-bottom: 225px;
+	}
 </style>
 
 <body id="general_page">
@@ -74,19 +78,17 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" onclick="hideContent('product_page'); showContent('home_page');"><img src="img/granola_bar_logo.png" alt="TrailMix" style="width:auto;height:20px;"></a>
+                <a class="navbar-brand" href="index.php"><img src="img/granola_bar_logo.png" alt="TrailMix" style="width:auto;height:20px;"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-                <div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-                    <li><a id="GoToSplash" href="#splash-screen">Home</a></li>
-                    <li><a id="GoToLearnMore" href="#learn-more">Learn More</a></li>
-                    <li><a id="GoToAboutUs" href="#about-us">About Us</a></li>
+                    <li><a id="GoToSplash" href="#splash-screen" onclick="hideContent('product_page'); showContent('home_page');">Home</a></li>
+                    <li><a id="GoToLearnMore" href="#learn-more" onclick="hideContent('product_page'); showContent('home_page');">Learn More</a></li>
+                    <li><a id="GoToAboutUs" href="#about-us" onclick="hideContent('product_page'); showContent('home_page');">About Us</a></li>
                 </ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><button class="btn btn-trailmix" id="product_button" onclick="showContent('product_page'); hideContent('home_page');">Products <span class="glyphicon glyphicon-tags"></span></button></a></li>
 				</ul>
-				</div>
             </div>
         </div>
     </nav>
@@ -110,14 +112,14 @@
 	<div id="learn-more">
 		<div class="row">
 			<div class="container feature-section">
-				<div class="col-md-6 feature-text-left">
-					<p>We pride ourselves on providing our customers with a quality product while growing 
-					our brand with the same organic integrity that is found in our granola.</p>
+				<div class="col-md-5 feature-text-left">
+					<p>The Granola Bar is a build your own granola concept similar to self-serve 
+					ice creame and the cereal bar in New York.</p>
+					<p>You pick the flavor combinations, grains, supplement, and glue to hold it all together.</p>
 				</div> 
 				<!-- end of learn-more div class -->
-				<div class ="col-md-6 feature-img">
-					<img src="img/GranolaBase.jpg"
-					alt ="Pile of Granola" />
+				<div class ="col-md-5 feature-img">
+					<img src="img/white_horse.jpg" alt="Idea of Business Interior" />
 				</div>
 			</div>
 		</div>
@@ -134,10 +136,12 @@
     <div class="row">
 		<div class="container feature-section">
       <div class="col-md-6 feature-img">
-				<img src="img/hunterphone.jpg" alt="hunter receiving notification on phone" />
+				<img src="img/GranolaBase.jpg" alt ="Pile of Granola" />
 			</div>
 			<div class="col-md-6 feature-text-right">
-				<p>Receive an instant notification on your phone or tablet as soon as movement is detected</p>
+				<p>We pride ourselves on providing our customers with a quality product while growing 
+					our brand with the same organic integrity that is found in our granola.</p>
+				
 			</div> 
 		</div> <!-- end feature secion div -->
 	</div>
@@ -154,11 +158,12 @@
   <div class="row">
         <div class="container feature-section">
 			<div class="col-md-6 feature-text-left">
-				<p>View your map when you arrive to select the area of your trail that has the most activity</p>
+				<p>The Granola Bar’s vision is to promote a healthy lifestyle and to provide quick,
+				effective, and friendly service.</p>
 			</div> <!-- end of about class -->
 			
 			<div id="scrollDiv" class="col-md-6 feature-img">
-				<img src="img/beachFire.jpeg" alt="Heat map of deer activity" />
+				<img src="img/beachFire.jpeg" alt="Night-time beach photo" />
 			</div>
 		</div>
   </div>

@@ -104,8 +104,8 @@
                     <li><a id="GoToAboutUs" href="#about-us" onclick="hideContent('product_page'); hideContent('contact-us'); showContent('home_page');">About Us</a></li>
                 </ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><button class="btn btn-trailmix" id="product_button" onclick="showContent('contact-us'); hideContent('home_page'); hideContent('product_page');">Contact Us <span class="glyphicon glyphicon-tags"></span></button></a></li>
-					<li><button class="btn btn-trailmix" id="product_button" onclick="showContent('product_page'); hideContent('home_page'); hideContent('contact-us');">Products <span class="glyphicon glyphicon-tags"></span></button></a></li>
+					<li><button class="btn btn-trailmix" id="product_button" onclick="showContent('contact-us'); hideContent('home_page'); hideContent('product_page');">Contact Us <span class="glyphicon glyphicon-comment"></span></button></a></li>
+					<li><button class="btn btn-trailmix" id="product_button" onclick="showContent('product_page'); hideContent('home_page'); hideContent('contact-us');">Products <span class="glyphicon glyphicon-apple"></span></button></a></li>
 				</ul>
             </div>
         </div>
